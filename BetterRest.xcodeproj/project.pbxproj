@@ -11,6 +11,7 @@
 		4A60E75026261125000F9902 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A60E74F26261125000F9902 /* ContentView.swift */; };
 		4A60E75226261127000F9902 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A60E75126261127000F9902 /* Assets.xcassets */; };
 		4A60E75526261127000F9902 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A60E75426261127000F9902 /* Preview Assets.xcassets */; };
+		4A60E763262C907A000F9902 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4A60E762262C907A000F9902 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		4A60E75126261127000F9902 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A60E75426261127000F9902 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4A60E75626261127000F9902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A60E762262C907A000F9902 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		4A60E74C26261125000F9902 /* BetterRest */ = {
 			isa = PBXGroup;
 			children = (
+				4A60E762262C907A000F9902 /* SleepCalculator.mlmodel */,
 				4A60E74D26261125000F9902 /* BetterRestApp.swift */,
 				4A60E74F26261125000F9902 /* ContentView.swift */,
 				4A60E75126261127000F9902 /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A60E763262C907A000F9902 /* SleepCalculator.mlmodel in Sources */,
 				4A60E75026261125000F9902 /* ContentView.swift in Sources */,
 				4A60E74E26261125000F9902 /* BetterRestApp.swift in Sources */,
 			);
